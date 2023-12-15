@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Avenir Next";
+    border: solid 3px darkslategray;
+    background: #2c2c2c;
+    padding: 0.5em;
+    margin: 0.5em;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.profile_img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.name_header {
+    font-size: 1.5rem;
+}
+
+.email_header {
+    font-size: 1rem;
+}
